@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+html {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+.card-top {
+    background-color: white;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 50%;
 }
