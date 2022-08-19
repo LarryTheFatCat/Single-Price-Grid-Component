@@ -94,3 +94,20 @@ html {
     border: none;
     cursor: pointer;
 }
+
+.card-right {
+    position: fixed;
+    top: 54.7%;
+    right: 32.5%;
+    width: 14.38%;
+    height: 200px;
+    padding: 35px;
+    border-bottom-right-radius: 8px;
+    background-color: hsl(218, 22%, 67%);
+    color: #E5EFF5;
+}
+
+.__title-content {
+    color: white;
+    font-weight: 700;
+}
