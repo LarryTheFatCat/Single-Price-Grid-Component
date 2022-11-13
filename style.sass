@@ -1,0 +1,30 @@
+// Precompiled SasS code, compiled code can be found in ./css/style.css + style.css.map!
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap')
+
+$font-family: 'Karla', sans-serif
+$cyan: hsl(179, 62%, 43%)
+$bright-yellow: hsl(71, 73%, 54%)
+$light-gray: hsl(204, 43%, 93%)
+$grayish-blue: hsl(218, 22%, 67%)
+
+@mixin flexDisplay
+    display: flex
+    justify-content: center
+    align-items: center
+    
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background-color: $light-gray
+    @include flexDisplay
+    min-height: 100vh
+    font-family: $font-family
+
+
+
+    
+
